@@ -1,0 +1,14 @@
+
+file_format: "1"
+id: ki_test_2
+name: ki_test_2
+type: shield
+features:
+  - keys
+  - studio
+outputs:
+  - usb
+  - ble
+siblings:
+  - ki_test_2_left
+  - ki_test_2_right

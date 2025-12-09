@@ -1,0 +1,4 @@
+config SHIELD_KI_TEST_2_LEFT
+    def_bool $(shields_list_contains,ki_test_2_left)
+config SHIELD_KI_TEST_2_RIGHT
+    def_bool $(shields_list_contains,ki_test_2_right)

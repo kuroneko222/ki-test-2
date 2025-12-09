@@ -1,0 +1,14 @@
+
+if SHIELD_KI_TEST_2_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "ki_test_2"
+
+endif
+
+if SHIELD_KI_TEST_2_LEFT || SHIELD_KI_TEST_2_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
