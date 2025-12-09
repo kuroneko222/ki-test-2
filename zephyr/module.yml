@@ -1,3 +1,4 @@
+name: ki-test-2
 build:
   settings:
     board_root: .
