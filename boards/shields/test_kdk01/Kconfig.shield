@@ -1,4 +1,0 @@
-config SHIELD_TEST_KDK01_LEFT
-    def_bool $(shields_list_contains,test_kdk01_left)
-config SHIELD_TEST_KDK01_RIGHT
-    def_bool $(shields_list_contains,test_kdk01_right)
